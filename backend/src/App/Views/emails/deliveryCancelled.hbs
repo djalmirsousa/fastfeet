@@ -1,0 +1,31 @@
+<strong>Olá, {{interested.name}}!</strong>
+<p>A seguinte entrega foi cancelada:</p>
+<p>
+  <strong>Cliente: </strong> {{recipient.name}}. <br />
+  <strong>Produto: </strong> {{delivery.product}}. <br />
+  <br />
+  <hr />
+  <strong>Endereço: </strong>
+  Cidade: {{recipient.city}}.
+  <br />
+  Estado: {{recipient.state}}.
+  <br />
+  Cep: {{recipient.zip}}.
+  <br />
+  Rua: {{recipient.street}}.
+  <br />
+  Número: {{recipient.number}}.
+  <br />
+  Complemento: {{recipient.complement}}.
+  <br />
+  <hr />
+</p>
+<hr>
+<p>Devido ao seguinte problema:</p>
+<p>
+  <strong>
+    {{problem.description}}
+  </strong>
+  <br>
+  Data: {{problem.updatedAt}}
+</p>

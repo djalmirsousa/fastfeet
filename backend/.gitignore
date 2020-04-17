@@ -1,0 +1,10 @@
+node_modules
+tmp/uploads
+.env
+__tests__/coverage
+__tests__/database.sqlite
+.vscode
+report.*
+temp/uploads/*
+dist
+package-lock.json

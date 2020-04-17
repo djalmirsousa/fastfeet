@@ -1,0 +1,25 @@
+<strong>Olá, {{deliveryman.name}}!</strong>
+<p>Nova entrega disponível, confira os detalhes abaixo:</p>
+<p>
+  <strong>Cliente: </strong> {{recipient.name}}. <br />
+  <strong>Produto: </strong> {{delivery.product}}. <br />
+  <br />
+  <hr />
+  <strong>Endereço: </strong>
+  Cidade: {{recipient.city}}.
+  <br />
+  Estado: {{recipient.state}}.
+  <br />
+  Cep: {{recipient.zip}}.
+  <br />
+  Rua: {{recipient.street}}.
+  <br />
+  Número: {{recipient.number}}.
+  <br />
+  Complemento: {{recipient.complement}}.
+  <br />
+  <hr />
+  <small>
+    A encomenda já está disponível para retirada na central.
+  </small>
+</p>
